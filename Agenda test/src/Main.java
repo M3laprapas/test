@@ -18,8 +18,8 @@ public class Main {
         if (num==4){
             System.out.println("4.Salir");
         }
-        if (num > 4){
-            System.out.println("Nerd");
+        if (num > 4 || num < 1 ){
+            System.out.println("Seleccione un número disponibe");
         }
     }
 }
