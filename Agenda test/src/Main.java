@@ -1,9 +1,10 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Main {
     public static void  main(String[] args){
         Scanner sc = new Scanner(System.in);
+        System.out.println("1.Añadir contactos   2.Mostrar contactos   3.Buscar contactos   4.Salir");
         int num = sc.nextInt();
         if ( num == 1 ){
             System.out.println("1.Añadir contacto");
@@ -16,6 +17,9 @@ public class Main {
         }
         if (num==4){
             System.out.println("4.Salir");
+        }
+        if (num > 4){
+            System.out.println("Nerd");
         }
     }
 }
